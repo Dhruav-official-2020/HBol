@@ -1,0 +1,8 @@
+git diff --> is used for displaying the current content of the file and the last availabl econtent
+of the file
+
+git checkout --> is used for undoing the last change done
+
+git remote add origin--> first step to add the files to the remote git 
+
+git push -u origin <URL>--> adds to the remote git
