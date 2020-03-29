@@ -1,0 +1,22 @@
+
+This is a real thing 
+The git commands i have learned are as follows 
+git init - is used for creating a new git repsitory
+git status - for the current condition of all the directories under the current directory
+git add <file name> - for adding the file in the staging  area
+git log - for knowing the commits
+git diff - for knowing the last change done in the repository
+git checkout - for undo-ing  the last change
+git commit -m  <"name of the commit"> - for  commiting
+git remote add origin  <URL> - for adding the file in the online github repository 
+git push -u origin master - for pushing into it
+ git rm --cached -r   <file name>  -  for removing the file from the online repository	
+git clone <URL> -  the git projects can be downloaded using this command
+git branch <NAME> - this is used for making an experimental branch from the main master branch
+git branch - this is used for knowing the branch on which u are on  
+git checkout <branch name> - for jumping on that branch 
+git merge - for merging the branches
+- ------------------------------------------------------------------------------------------------------------------------
+maya adhyakshena prakritih suyate sa characharam Hetunanen Kaunteya jagad vipartate
+
+ashanshae maha baho manah dunugrah chalam abhyasena tu Kaunteya vairagyena cha grahayate
