@@ -1,4 +1,3 @@
-
 This is a real thing 
 The git commands i have learned are as follows 
 git init - is used for creating a new git repsitory
@@ -16,7 +15,11 @@ git branch <NAME> - this is used for making an experimental branch from the main
 git branch - this is used for knowing the branch on which u are on  
 git checkout <branch name> - for jumping on that branch 
 git merge - for merging the branches
+git clone <URL> - is used for downlaoding a project on ur own system
 - ------------------------------------------------------------------------------------------------------------------------
 maya adhyakshena prakritih suyate sa characharam Hetunanen Kaunteya jagad vipartate
 
 ashanshae maha baho manah dunugrah chalam abhyasena tu Kaunteya vairagyena cha grahayate
+----------------------------------------------------------------------->>>>>>>>>>>>>
+forking -forking is simply copying someone else's repository into your's for working on it  
+              and then locally 'cloning' it into ur own  system for working on it
