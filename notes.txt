@@ -52,7 +52,7 @@ Body-parser module:
 to install:
 npm install body-parser
 using this module it is possible to extract the information sent to the server
-===========================
+
 use: 
 const bodyParser =  require("body-parser");
 app = express();
@@ -60,7 +60,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.post("/" ,  function(req, res){
 <use:  req.body.name > 
 });
-============================
+
 -------------------------------------------------------------------------------------------------
 nodemon: 
 is a utility tool which automatically restarts the server when any changes 
