@@ -1,3 +1,4 @@
+
 This is a real thing 
 The git commands i have learned are
 git init - is used for creating a new git repsitory
@@ -32,8 +33,38 @@ there are 2 types of APIs
 - private - <require authentication (API keys)> 
                   GET                            GET  
 [CLIENT] ----------> [SERVER] -----------------> [DATABASE]
-               <----------                   <----------------
+               <----------                   <--------------
                  GIVE                            GIVE
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
+GET is used to request data from a specified resource.
+POST is one of the most common HTTP methods.
+Both are in the form of an https request
+______________________________________________________________
+<form> tag in the html code does not have a class but it only has a 
+             method and  a  action 
+action - is the location of the request 
+method:[ method="post"; ] means we are  sending the data to te server
+<input>  name="name":  no class
+-------------------------------------------------------------------------------------------------
+Body-parser module: 
+to install:
+npm install body-parser
+using this module it is possible to extract the information sent to the server
+===========================
+use: 
+const bodyParser =  require("body-parser");
+app = express();
+app.use(bodyParser.urlencoded({extended: true}));
+app.post("/" ,  function(req, res){
+<use:  req.body.name > 
+});
+============================
+-------------------------------------------------------------------------------------------------
+nodemon: 
+is a utility tool which automatically restarts the server when any changes 
+are made in the file
+to install:
+npm install -g nodemon
+-----------------------------------------------------------------------------------------------
